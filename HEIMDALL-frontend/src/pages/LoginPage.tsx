@@ -171,7 +171,7 @@ export default function LoginPage({ onDone }: { onDone: () => void }) {
                 <div className="relative">
                   <Mail size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-[#8A9080]" />
                   <input type="email" value={email} onChange={e => setEmail(e.target.value)}
-                         placeholder="you@karnavatiuniversity.edu.in" className={`${inputCls} pl-10`}
+                         placeholder="you@example.com" className={`${inputCls} pl-10`}
                          disabled={busy} onKeyDown={e => e.key === 'Enter' && submitAuth()} />
                 </div>
               </div>
